@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 I am Mohammed Gad you can call me **Gadz**.  
-I am a **software engineer**, I work with **Ruby** and **Elixir**, currently working for [Rubikal](https://rubikal.com) and [Concentrical](https://www.linkedin.com/company/concentrical) as **Senior Backend Enginner**.  
-I am really interested in cyber security topics and discussions.  
+I am a **software engineer**, I work with **Ruby** and **Elixir**, currently working for [Rubikal](https://rubikal.com) and [Concentrical](https://www.linkedin.com/company/concentrical) as **Senior Backend Engineer**.  
+I am really interested in cybersecurity topics and discussions.  
 I have built some open source apps like [RomPatcher](https://github.com/mohammedgad/RomPatcher)  
 I love to build ideas from the ground up, from business to tech.  
 
