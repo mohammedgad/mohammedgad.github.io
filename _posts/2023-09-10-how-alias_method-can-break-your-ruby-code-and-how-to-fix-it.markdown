@@ -60,10 +60,10 @@ B.new.not_allowed_secret
 
 What happened here? Why did the alias point to the original method in `A`, instead of the overridden method in `B`?
 
-This happens because `alias_method` makes a new method that calls the original one where we use `alias_method`. In class `B`, we put `alias_method` before the new `print_secret` method, so it made a new method `not_allowed_secret` that calls the old `print_secret` method in `A`. 
+This happens because `alias_method` makes a new method that calls the defined method where we use `alias_method`. In class `B`, we put `alias_method` before the new `print_secret` method, so it made a new method `not_allowed_secret` that calls the old `print_secret` method in `A`, because the new method is not defined yet where we call the `alias_method`. 
 
 This means that using `not_allowed_secret` on a B object will do the same thing as using `print_secret` on an `A` object.
-This is the second usage I mentioned in the first paragraph which is that you can retain access to overridden methods which is very cool. However, this can be a serious problem if we are not careful about the order of `alias_method`. We might unintentionally mess up the logic and result in the wrong output.
+This is the second usage I mentioned earlier which is that you can retain access to overridden methods which is very cool. However, this can be a serious problem if we are not careful about the order of `alias_method`. We might unintentionally mess up the logic and result in the wrong output.
 
 ### The Solution
 
