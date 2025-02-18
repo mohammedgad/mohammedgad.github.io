@@ -15,7 +15,6 @@ If you would like to chat or need any help please contact me.
 [Facebook](https://www.facebook.com/mohammed.gad.52)  
 [Linkedin](https://www.linkedin.com/in/mohammedgad7)  
 [Github](https://github.com/mohammedgad)  
-[Twitter](https://twitter.com/mohammedgad9)  
 
 
 
